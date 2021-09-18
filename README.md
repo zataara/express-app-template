@@ -1,0 +1,1 @@
+A template for app built with express for easy cloning.
