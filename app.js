@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const ExpressError = requrie("./expressError");
-const bcrypt = require("bcrypt");
 
 app.use(express.json());
 
