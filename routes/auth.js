@@ -3,6 +3,7 @@ const { nextTick } = require("process");
 const router = express.Router();
 const db = require("../db");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
 
 router.post("/register", async function (req, res, next) {
